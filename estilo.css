@@ -1,0 +1,99 @@
+html, body, header { height: 100%; }
+
+body {
+  color: #303030;
+  font: 18px/28px Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+header {
+       text-align: center;
+       background: url(http://widewallpapers.co/wp-content/uploads/2015/05/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.png);
+       background-size: cover;
+       color: white;
+       }
+
+h1 {
+       font-size: 70px;
+       max-width: 500px;
+	   padding: 20px;
+       margin: 0 auto;
+       margin-top: 10px;
+   }
+img {
+         margin: 40px 0px 0px 0px;
+         border: 7px solid white;
+         border-radius: 20px;
+         margin: 0 auto;
+         margin-top: 10px;
+         
+          }
+ul{
+	padding: 10px;
+    background: rgba(0,0,0,0.6); 
+    margin: 190px 0px 0px 0px;
+   }
+
+li{
+       display: inline-block;
+       padding: 0px 10px 0px 10px;          
+  }
+
+  a {
+       color: white;
+       text-decoration: none;   
+  }
+  a:hover {
+       color: #B08D8E;
+       text-decoration: none;   
+  }
+
+h2 {
+       font-size: 30px;
+       max-width: 900px;
+	   padding: 20px;
+       margin: 0 auto;
+       margin-top: 30px;
+   }
+
+  p{
+	max-width: 900px;
+	padding: 20px;
+    margin: 0 auto;
+}
+
+footer{	
+	background: black;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+h4{
+	margin-bottom: 2px;
+}
+.centrado{
+	text-align: center;
+	margin: 0 auto;
+}
+.habilis{
+         margin: 40px 0px 0px 0px;
+         border: 7px;        
+         margin: 0 auto;
+         margin-top: 10px;       
+          }
+
+.sectorh {	         
+    background-color: #4C7B8D;
+    color: white;
+}
+.pie {
+	margin: 2px, 0px 0px 0px;
+}
+ /*
+ pseudo clases:hover,focus, visited;
+ */
+/*focus hará que en el momento en que se está haciendo la acción el elemento tenga un cambio especifico. */
+a:focus{
+	font: bold;
+	color: red;
+}
