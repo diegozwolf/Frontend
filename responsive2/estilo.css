@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Emilys+Candy");
+
+html {
+  font-size:16px;
+  height:100%;
+}
+
+html body {
+	background:url("gold_scale.png");
+  font:normal 62.5% Helvetica, Tahoma, Arial, sans-serif;
+  height:100%;
+  margin:0;
+}
+
+html body img, html body video, html body audio {
+  display:block;
+}
+.container {
+	margin:0 auto;
+	max-width:1024px;
+	width:100%;
+}
+.sidebar {
+	background-color:rgba(255, 255, 255, .6);
+	display:inline-block;
+	vertical-align:top;
+	width:29.296875%;
+}
+.sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.sidebar ul li {
+	border-bottom:1px solid #ddd;
+	color:#333;
+	cursor:pointer;
+	font:normal 1.4em 'Tahoma', Arial;
+	padding:10px;
+}
+.sidebar ul li:hover {
+	box-shadow:inset 0 -2px 0 #ddd;
+}
+.content {
+	background-color:rgba(255, 255, 255, .6);
+	display:inline-block;
+	margin-left:0.9765625%;
+	width:68.359375%;
+}
+.content article {
+	display:inline-block;
+	padding:0 20px 20px;
+}
+.content article h1 {
+	font:normal 2.5em 'Emilys Candy', cursive;
+	margin-top:0;
+}
+.content article p {
+	font:normal 1.4em 'Tahoma', Arial;
+}
+
+@media all and (max-width: 700px){
+	.sidebar{
+		width: 100%;
+			
+	}
+	ul{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	li{
+		display:inline-block;		
+	}
+	.content{
+		width: 100%;
+	}
+}
+
