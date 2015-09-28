@@ -1,3 +1,6 @@
+/**Cargar fuentes desde css**/
+@import url(https://fonts.googleapis.com/css?family=Ranga|Metal+Mania|Volkhov&subset=latin,latin-ext);
+
 html {
   font-size:16px;
   height:100%;
@@ -13,43 +16,63 @@ html body img, html body video, html body audio {
 }
 
 .container {
-	border:1px solid red;
+  border:1px solid red;
   margin:0 auto;
   max-width:1024px;
   width:100%;
 }
-
+h1{
+	font-family: 'Volkhov', serif;
+}
 .information {
 	border:1px solid green;
+	width: 100%;
+	font-family: 'Metal Mania', cursive;
+	color: blue;
+
 }
 .image {
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	display:inline-block;
-	height:200px;
-	width:200px;
+	height:200px;		
+	max-width: 200px;
+	width:19.53125%;
 }
+.image img{
+	width: 100%;
+}
+
 .description {
-	border:1px solid darkblue;
+	/*border:1px solid darkblue;*/
 	display:inline-block;
-	margin-left:15px;
+	font-family: 'Ranga', cursive;
+	font-size: 20px;
+	margin-left: 1.46484375%; 
+	padding: 1.25%; 
 	vertical-align:top;
-	width:800px;
+	max-width: 800px;
+	width:76.171875%; 
 }
 .sidebar {
-	border:1px solid black;
+	/*border:1px solid black;*/
 	display:inline-block;
 	vertical-align:top;
-	width:200px;
+	max-width: 200px;		
+	width:19.53125%;
 }
 .content {
-	border:1px solid orange;
+	/*border:1px solid orange;*/
 	display:inline-block;
-	margin-left:15px;
-	vertical-align:top;
-	width:800px;
+    font-family: 'Metal Mania', cursive;
+    margin-left: 1.46484375%; 
+	/*padding: 1.25%;*/
+	vertical-align: top;	
+	max-width: 800px;
+	width: 76.171875%; 
 }
 .gallery img {
 	display: inline-block;
+	max-width: 380px;
 	width: 380px;
 }
 .gallery img:hover {
@@ -72,4 +95,34 @@ html body img, html body video, html body audio {
 	margin-left: 15px;
 	vertical-align:top;	
 	width: 98%;
+}
+@media all and (max-width: 833px){
+	.content {
+		margin-left: 0;		
+	}
+	.image {	
+	display: block;
+	margin: 0 auto;
+	height:200px;		
+	max-width: 200px;
+	width:100%;
+    }
+    .description {
+	/*border:1px solid darkblue;*/
+	display:inline-block;
+	margin-left: 0; 	
+	padding: 1.25%; 
+	vertical-align:top;
+	max-width: 800px;
+	width:76.171875%; 
+	color: red;
+    }
+    .sidebar {
+	/*border:1px solid black;*/
+	display: block;
+	vertical-align:top;
+	max-width: 200px;		
+	width:19.53125%;
+}
+
 }
